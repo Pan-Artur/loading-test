@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Loader from './components/Loader/Loader';
+import { Loader } from './components/Loader/Loader';
 
 import './App.css';
 
