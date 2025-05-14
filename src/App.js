@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-import './App.css';
+
 import Loader from './components/Loader/Loader';
 
-class App extends Component {
+import './App.css';
+
+export class App extends Component {
   state = {
     isLoading: true
   };
@@ -34,5 +36,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;
